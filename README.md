@@ -1,2 +1,1 @@
-# Hello World
-Gundrin.Github.io
+# Gundrin.Github.io
