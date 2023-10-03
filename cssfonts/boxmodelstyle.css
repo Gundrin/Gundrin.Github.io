@@ -1,21 +1,23 @@
 body
 {
     background-color: rgb(200, 218, 174);
-    margin-right: 200px;
 }
 #box1
 {
+    width: 100px;
     margin:40px;
     background-color: rgb(184, 230, 139);
 }
 #box2
 {
+    width: 100px;
     padding: 20px;
     margin: 20px;
     background-color: rgb(55, 168, 55);
 }
 #box3
 {
+    width: 100px;
     padding:30px;
     margin: 30px;
     border: 7px solid #22AABB;
