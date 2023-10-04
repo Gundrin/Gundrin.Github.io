@@ -4,22 +4,25 @@ body
 }
 #box1
 {
-    margin: 10px;
+    margin: 20px;
     background-image: linear-gradient(to top, #b6e7be, #A8EA85);
     box-shadow: 1em 1em black;
     font-family: Arial, Helvetica, sans-serif;
+    width: 30em;
 }
 #box2
 {
-    margin: 10px;
+    margin: 20px;
     background-image: linear-gradient(to top, #b6e7be, #A8EA85);
     box-shadow: 1em 1em black;
     font-family: 'Courier New', Courier, monospace;
+    width: 30em;
 }
 #box3
 {
-    margin: 10px;
+    margin: 20px;
     background-image: linear-gradient(to top, #b6e7be, #A8EA85);
     box-shadow: 1em 1em black;
     font-family: 'Times New Roman', Times, serif;
+    width: 30em;
 }
