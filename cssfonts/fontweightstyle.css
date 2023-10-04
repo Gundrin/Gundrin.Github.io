@@ -1,0 +1,40 @@
+body
+{
+background-color: #eb9b9b;
+}
+#box1
+{
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #eb9b9b, #e44545);
+    box-shadow: 8px 8px black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30em;
+}
+#box2
+{
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #eb9b9b, #e44545);
+    box-shadow: 8px 8px black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 30em;
+}
+#box3
+{
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #eb9b9b, #e44545);
+    box-shadow: 8px 8px black;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30em;
+}
+span.light
+{
+font-weight: lighter;
+}
+span.bold
+{
+font-weight: bold;
+}
+span.bolder
+{
+font-weight: bolder;
+}
