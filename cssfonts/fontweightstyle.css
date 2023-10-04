@@ -2,7 +2,7 @@ body
 {
 background-color: #eb9b9b;
 }
-#box1
+div.a
 {
     margin: 20px;
     background-image: linear-gradient(to bottom, #eb9b9b, #e44545);
@@ -10,7 +10,7 @@ background-color: #eb9b9b;
     font-family: Arial, Helvetica, sans-serif;
     width: 30em;
 }
-#box2
+div.b
 {
     margin: 20px;
     background-image: linear-gradient(to bottom, #eb9b9b, #e44545);
@@ -18,7 +18,7 @@ background-color: #eb9b9b;
     font-family: 'Courier New', Courier, monospace;
     width: 30em;
 }
-#box3
+div.c
 {
     margin: 20px;
     background-image: linear-gradient(to bottom, #eb9b9b, #e44545);
