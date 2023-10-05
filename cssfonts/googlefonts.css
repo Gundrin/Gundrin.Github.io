@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Noto+Sans+JP:wght@200&family=Roboto+Slab:wght@100&display=swap');
+body
+{
+background-color: #eb9b9b;
+}
+div.a
+{
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #eb9b9b, #e44545);
+    box-shadow: 8px 8px black;
+    font-family:'Montserrat', sans-serif;
+    width: 30em;
+}
+div.b
+{
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #eb9b9b, #e44545);
+    box-shadow: 8px 8px black;
+    font-family:'Noto Sans JP', sans-serif;
+    width: 30em;
+}
+div.c
+{
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #eb9b9b, #e44545);
+    box-shadow: 8px 8px black;
+    font-family: 'Roboto Slab', serif;
+    width: 30em;
+}
