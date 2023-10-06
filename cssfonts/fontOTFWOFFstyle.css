@@ -1,0 +1,27 @@
+@font-face 
+{
+font-family:Ris;
+src: url(ristretto.woff);
+font-family:May;
+src: url(Mayestica.otf);
+}
+body
+{
+background-color: #e4f8c5;
+}
+div.a
+{
+    font-family: Ris, sans-serif;
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #e4f8c5, #78eb55);
+    box-shadow: 8px 8px black;
+    width: 30em;
+}
+div.b
+{
+    font-family: May, sans-serif;
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #e4f8c5, #78eb55);
+    box-shadow: 8px 8px black;
+    width: 30em;
+}
