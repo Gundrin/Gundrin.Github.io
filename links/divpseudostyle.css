@@ -1,0 +1,26 @@
+body
+{
+    background-color: darkgreen;
+    text-align: center;
+}
+div
+{
+    margin:10px;
+    padding: 40px;
+    border-width: 4px;
+    border-radius: 5px;
+    border-color: white;
+    color:white;
+}
+div:hover
+{
+    background-color: blue;
+}
+div:focus
+{
+    color:blue;
+}
+h6
+{
+    color:red;
+}
