@@ -6,6 +6,7 @@ a
 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
+    margin-right: 3em;
 }
 a:link
 {
@@ -24,5 +25,5 @@ a:focus
 {
     color: greenyellow;
     background-color: rgb(130, 236, 130);
-    box-shadow: black 8px 8px;
+    box-shadow: black 6px 6px 5px;
 }
