@@ -7,12 +7,12 @@ a
     font-family: 'Courier New', Courier, monospace;
     margin:10px;
     padding: 40px;
-    border-style: ridge;
+    border-left-style: ridge;
     border-radius: 8px;
     color:rgb(17, 0, 255);
     width: 10em;
     text-decoration: underline;
-    border-left: 4px;
+    border-left-width: 4px;
     background-color: grey;
 }
 a:hover
@@ -21,7 +21,7 @@ a:hover
 }
 a.a
 {
-border-color: red;
+    border-color: red;
 }
 a.b
 {
