@@ -12,7 +12,7 @@ div
     border-color: white;
     color:white;
     width: 10em;
-    margin-left: 20em;
+    text-align: center;
 }
 div:hover
 {
@@ -25,5 +25,4 @@ div:focus
 h1
 {
     color:red;
-    text-align:center;
 }
