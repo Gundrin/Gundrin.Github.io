@@ -3,7 +3,7 @@ body
     background-color: darkgreen;
     text-align: center;
 }
-#p
+div
 {
     margin:10px;
     padding: 40px;
@@ -20,7 +20,7 @@ div:focus
 {
     color:blue;
 }
-h6
+h1
 {
     color:red;
 }
