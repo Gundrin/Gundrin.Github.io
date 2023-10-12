@@ -1,7 +1,6 @@
 body
 {
     background-color: darkgreen;
-    text-align: center;
 }
 div
 {
@@ -13,6 +12,7 @@ div
     border-color: white;
     color:white;
     width: 10em;
+    text-align: center;
 }
 div:hover
 {
