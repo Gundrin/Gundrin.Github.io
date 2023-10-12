@@ -14,8 +14,6 @@ a
     text-decoration: underline;
     border-left: 4px;
     background-color: grey;
-    float:left;
-    text-align: center;
 }
 a:hover
 {
@@ -36,4 +34,8 @@ a.c
 a.d
 {
     border-color: green;
+}
+ul
+{
+    text-align: center;
 }
