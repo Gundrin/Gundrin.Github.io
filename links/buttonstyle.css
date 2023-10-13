@@ -16,6 +16,7 @@ a
     border-left-width: 4px;
     background-color: grey;
     display:block;
+    margin-left: 45%;
 }
 a:hover
 {
