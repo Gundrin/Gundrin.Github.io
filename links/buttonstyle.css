@@ -2,6 +2,7 @@ body
 {
     background-color: #a1d636;
     text-align: center;
+    margin-left: 1em;
 }
 a
 {
@@ -37,8 +38,4 @@ a.c
 a.d
 {
     border-color: green;
-}
-ul
-{
-    text-align: center;
 }
