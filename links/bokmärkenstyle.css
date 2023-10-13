@@ -4,38 +4,7 @@ body
     background-color: rgb(201, 231, 154);
     margin-left: 35%;
 }
-#i
-{
-    margin-left: 2em;
-    color:blue;
-    text-decoration: underline;
-    text-decoration-color: blue;
-}
-#a
-{
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-}
-#b
-{
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-}
-#c
-{
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-}
-#d
-{
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-}
-#inneåll
+#fin
 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
