@@ -14,6 +14,7 @@ a
     border-style: solid;
     border-color: rgb(196, 143, 0);
     color: rgb(196, 143, 0);
+    border-width: 3px;
 }
 a:hover
 {
