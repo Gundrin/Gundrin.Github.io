@@ -27,6 +27,7 @@ div
     margin-right: 1em;
     float:right;
     -moz-box-align: center;
+    padding: 8px;
 }
 h3
 {
