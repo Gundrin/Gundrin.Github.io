@@ -26,8 +26,7 @@ div
     box-shadow: 7px 7px 10px;
     margin-left: 1em;
     margin-right: 1em;
-    float:right;
-    -moz-box-align: center;
+    float:left;
     padding: 8px;
 }
 h3
