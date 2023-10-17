@@ -15,7 +15,6 @@ a
     border-color: rgb(196, 143, 0);
     color: rgb(196, 143, 0);
     border-width: 3px;
-    float: inline-end;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -32,6 +31,7 @@ div
     margin-right: 1em;
     float:left;
     padding: 8px;
+    height: 17em;
 }
 h3
 {
