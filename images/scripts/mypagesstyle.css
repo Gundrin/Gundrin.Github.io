@@ -4,6 +4,9 @@ div
     background-color: rgb(74, 13, 131);
     box-shadow: rgb(37, 6, 66) 1em 1em;
     text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
 }
 body
 {
