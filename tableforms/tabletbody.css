@@ -18,6 +18,7 @@ table {
   border: 2px solid blue;
   letter-spacing: 1px;
   width:30em;
+  box-shadow: 8px black;
 }
 
 td,
