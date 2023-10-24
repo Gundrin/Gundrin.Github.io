@@ -1,0 +1,41 @@
+thead,
+th
+{
+  color: red;
+}
+body
+{
+  background-color: rgb(180, 228, 165);
+  font-family: times;
+}
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid blue;
+  letter-spacing: 1px;
+  width:30em;
+}
+
+td,
+th {
+  border: 1px solid green;
+  padding: 5px 10px;
+  height: 3em;
+}
+
+td {
+  text-align: center;
+}
+caption
+{
+    caption-side: top;
+  	font-style:italic;
+}
+tfoot
+{
+  color:darkblue;
+}
