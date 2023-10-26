@@ -1,0 +1,24 @@
+h2
+{
+  margin:1em;
+}
+h3
+{
+  margin:0em;
+}
+p, ul, ol
+{
+  border:solid 2px blue;
+  margin:0px;
+}
+p
+{
+  background-color:rgb(240,250,258);
+  right-padding:14px;
+  color:rgb(150,0,190);
+}
+body
+{
+  background-color:lightgreen;
+  font-family:times;
+}
