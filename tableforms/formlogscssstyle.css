@@ -1,0 +1,29 @@
+form
+{
+  background-color:lightgreen;
+  padding:8px;
+}
+h1
+{
+  text-align:center;
+  margin-top:0;
+}
+body
+{
+  font-family:times;
+}
+label
+{
+  color:blue;
+}
+input
+{
+  background-color:white;
+  border-color:lightgrey;
+  color:black;
+  margin-left:3em;
+}
+#a
+{
+  width:8em;
+}
