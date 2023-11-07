@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+		form
+		{
+		  background-color:lightgreen;
+		  padding:8px;
+		  width:auto;
+		  height:auto;
+          margin:0px;
+		}
+		h1
+		{
+		  text-align:center;
+		  margin-top:0;
+		}
+		body
+		{
+		  font-family:times;
+		}
+		label
+		{
+		  color:blue;
+		}
+		input
+		{
+		background-color:white;
+		border-color:lightgrey;
+		color:black;
+        margin-left:3em;
+		}
+        legend
+        {
+        background-color:rgb(220, 210, 240);
+        color:purple;
+        margin:0px;
+        }
+		#a
+		{
+		  width:8em;
+		}
+        </style>
+    </head>
+    <body>
+        <form>
+         	<fieldset>
+				<legend>Login</legend>
+                	<label for="username">Username:*</label>
+  					<input type="text" name="username" required>
+  			</fieldset>
+  		</form>
+          <form>
+         	<fieldset>
+				<legend>Gender*</legend>
+                <div>
+                	<label for="male" style="padding:6px;">male</label>
+                    <input type="radio" name="gender" id="male">
+                </div>
+                <br>
+                <div>
+                    <label for="female">female</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+  			</fieldset>
+  		</form>
+          <form>
+         	<fieldset>
+				<legend>Programming skill</legend>
+                <div>
+                	<label for="Java">Java</label>
+                    <input type="checkbox" name="Java">
+                </div>
+                <br>
+                <div>
+                	<label for="C++">C++</label>
+                    <input type="checkbox" name="C++">
+                </div>
+                <br>
+                <div>
+                	<label for="C#">C#</label>
+                    <input type="checkbox" name="C#">
+                </div>
+                <br>
+  			</fieldset>
+  		</form>
+          <form>
+         	<fieldset>
+				<legend>Fruit</legend>
+  			</fieldset>
+  		</form>
+          <form>
+         	<fieldset>
+				<legend>Comment</legend>
+  			</fieldset>
+  		</form>
+    </body>
+</html>
