@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<input type="number" id="input">
+			<script>
+				if(document.getElementById("input").value <= 0)
+				{
+				document.write("hi");
+				}
+			</script>
+			
+	</body>
+</html>
