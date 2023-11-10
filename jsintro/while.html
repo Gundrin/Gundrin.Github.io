@@ -1,0 +1,37 @@
+<html>
+  <head>
+  <style>
+  span
+{
+  color:red;
+  font-weight:bold;
+}
+  </style>
+  </head>
+	<body>
+    Enter number (number>0):
+		<input type="number" id="input" onchange="number()">
+    <br><br>
+    <span id="1a"></span><br>
+    <span id="1b"></span><br>
+    <span id="1c"></span>
+			<script>
+      	function number()
+        {
+      	if(document.getElementById("input").value <= 0)
+        {
+        	document.getElementById("input").value = 0;
+          document.getElementById("1a").innerHTML="ERROR number>0";
+          document.getElementById("1b").innerHTML="Summera alla nummer från 1 till nr med while: 3";
+          document.getElementById("1c").innerHTML="";
+        }
+        else
+        {
+        document.getElementById("1a").innerHTML="Summera alla nummer från 1 till nr med for: 3";
+        document.getElementById("1b").innerHTML="Nu med while";
+        document.getElementById("1c").innerHTML="Summera alla nummer från 1 till nr med while: 3";
+        }
+        }
+			</script>
+	</body>
+</html>
