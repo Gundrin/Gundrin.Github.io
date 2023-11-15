@@ -1,0 +1,50 @@
+<html>
+    <head>
+    
+    </head>
+    <body>
+        <script>
+        var city =["Dubai","Paris","Mumbai","Dallas","Houston","Madrid"];
+        var number =["1231","234","34536"]
+        var i=0;
+        document.write("After push"+"<br>");
+        for(i=0;i < city.length;i++){
+        document.write("cities["+i+"]" + " = " + city[i]);
+        document.write("<br>");
+        if(i<3){
+        city.push(number[i]);
+        }
+        }
+        i=0;
+        city.pop();
+        document.write("After pop"+"<br>");
+        for(i=0;i < city.length;i++){
+        document.write("cities["+i+"]" + " = " + city[i]);
+        document.write("<br>");
+        }
+        i=0;
+        city.shift();
+        document.write("After shift"+"<br>");
+        for(i=0;i < city.length;i++){
+        document.write("cities["+i+"]" + " = " + city[i]);
+        document.write("<br>");
+        }
+        i=0;
+        city.splice(3,0,"stockholm");
+        document.write("After splice"+"<br>");
+        for(i=0;i < city.length;i++){
+        document.write("cities["+i+"]" + " = " + city[i]);
+        document.write("<br>");
+        }
+        i=0;
+        delete city[3];
+        city.splice(3,1)
+        document.write("After delete"+"<br>");
+        for(i=0;i < city.length;i++){
+        document.write("cities["+i+"]" + " = " + city[i]);
+        document.write("<br>");
+        }
+        i=0;
+        </script>
+    </body>
+</html>
