@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form>
+        <button id="japan">
+        Japan
+        </button>
+        <button onclick=indian()>
+        Indian
+        </button>
+        <button onclick=china>
+        China
+        </button>
+        <br><br>
+        <input type="text" id="text1" onhover="hover()" onclick="click()" onmouseup=""><br><br>
+        <input type="text">
+        </form>
+        <script>
+        var i=1;
+        function click(){
+        document.getElementById("text"+i).style.background = "green";
+        }
+        function hover(){
+        document.getElementById("text"+i).style.color = "blue";
+        }
+        function click(){
+        document.getElementById("text"+i).style.background = "green";
+        }
+        </script>
+    </body>
+</html>
