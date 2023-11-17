@@ -1,35 +1,44 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="">
+                <script>
+        var i=1;
+        var color =["yellow","green",""];
+        function i1(){
+        i=1;
+        click1();
+        }
+        function i2(){
+        i=2;
+        click1();
+        }
+        function click1(){
+        document.getElementById("text"+i).style.background = color[i-1];
+        if(i!=2){
+        document.getElementById("text2").style.background = "white";
+        document.getElementById("text"+i).style.color = "red";
+        }
+        else{
+        document.getElementById("text1").style.background = "white";
+        }
+        }
+        </script>
     </head>
     <body>
         <form>
         <button id="japan">
         Japan
         </button>
-        <button onclick=indian()>
+        <button id="indian">
         Indian
         </button>
-        <button onclick=china>
+        <button id="china">
         China
         </button>
         <br><br>
-        <input type="text" id="text1" onhover="hover()" onclick="click()" onmouseup=""><br><br>
-        <input type="text">
+        <input type="text" id="text1" onmousedown="" onclick="i1()"><br><br>
+        <input type="text" id="text2" onmousedown="" onclick="i2()">
         </form>
-        <script>
-        var i=1;
-        function click(){
-        document.getElementById("text"+i).style.background = "green";
-        }
-        function hover(){
-        document.getElementById("text"+i).style.color = "blue";
-        }
-        function click(){
-        document.getElementById("text"+i).style.background = "green";
-        }
-        </script>
     </body>
 </html>
