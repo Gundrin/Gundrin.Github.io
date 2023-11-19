@@ -3,29 +3,19 @@
     <head>
         <link rel="stylesheet" href="">
                 <script>
-        var i=1;
-        var color =["yellow","green",""];
-        function i1(){
-        i=1;
-        click1();
-        }
-        function i2(){
-        i=2;
-        click1();
-        }
-        function click1(){
-        document.getElementById("text"+i).style.background = color[i-1];
-        if(i!=2){
-        document.getElementById("text2").style.background = "white";
-        document.getElementById("text"+i).style.color = "red";
-        }
-        else{
-        document.getElementById("text1").style.background = "white";
+                document.addEventListener('DOMContentLoaded', function(){document.getElementById("text1").style.color = "red";})
+        var color =["white","yellow","green"];
+        function click1(event,i){
+        	event.stopPropagation();
+        	document.getElementById("text1").style.background = color[0];			
+        	document.getElementById("text2").style.background = color[0];		
+          if(i>0){
+        	document.getElementById("text"+i).style.background = color[i];	
         }
         }
         </script>
     </head>
-    <body>
+    <body onclick="click1(event,0)">
         <form>
         <button id="japan">
         Japan
@@ -37,8 +27,8 @@
         China
         </button>
         <br><br>
-        <input type="text" id="text1" onmousedown="" onclick="i1()"><br><br>
-        <input type="text" id="text2" onmousedown="" onclick="i2()">
+        <input type="text" id="text1" onclick="click1(event,1)"><br><br>
+        <input type="text" id="text2" onclick="click1(event,2)">
         </form>
     </body>
 </html>

@@ -1,2 +1,4 @@
 x.background ="";
 Index
+event.stopPropagation();
+document.addEventListener('DOMContentLoaded', function(){})
