@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <style>
+          button
+          {
+            border: 2px solid black;
+            background: lightblue;
+          }
+          </style>
+        	<script>
+        	function number(i){
+        	var a = document.getElementById("input1").value;
+            var b = document.getElementById("input2").value;
+            if(i==1){
+            alert(a + b);
+            }
+            if(i==2){
+            alert(a-b);
+            }
+            if(i==3){
+            alert(a*b);
+            }
+            if(i==4){
+            alert(a/b);
+            }
+            }
+        </script>
+    </head>
+    <body>
+     	<input type="text" id="input1">
+    	<input type="text" id="input2">
+    	<button onclick="number(1)">+</button>
+    	<button onclick="number(2)">-</button>
+    	<button onclick="number(3)">*</button>
+    	<button onclick="number(4)">/</button>
+    </body>
+</html>
