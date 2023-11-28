@@ -6,6 +6,9 @@
           {
             border: 2px solid black;
             background: lightblue;
+            padding-left:2em;
+            padding-right:2em;
+            margin-right:2em;
           }
           </style>
         	<script>
@@ -13,7 +16,7 @@
         	var a = document.getElementById("input1").value;
             var b = document.getElementById("input2").value;
             if(i==1){
-            alert(a + b);
+            alert(parseInt(a + b));
             }
             if(i==2){
             alert(a-b);
@@ -26,10 +29,11 @@
             }
             }
         </script>
+        <title>56</title>
     </head>
     <body>
-     	<input type="text" id="input1">
-    	<input type="text" id="input2">
+     	tal 1:<input type="text" id="input1"><br><br><br><br><br>
+    	tal 2:<input type="text" id="input2"><br><br><br><br>
     	<button onclick="number(1)">+</button>
     	<button onclick="number(2)">-</button>
     	<button onclick="number(3)">*</button>
