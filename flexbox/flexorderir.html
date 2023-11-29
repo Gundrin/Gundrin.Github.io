@@ -3,21 +3,26 @@
     <head>
         <link rel="stylesheet" href="">
         <style>
+            body
+            {
+              width:200%;
+            }
             .cont
             {
                 display: flex;
-                flex-wrap:wrap;
-                width:60em;
+                width:100%;
             }
             .cont > div
             {
-
+            
             }
             .a
             {
               flex:100%;
               text-align:center;
               background-color:darkred;
+              line-height:0;
+              padding:1em;
             }
             .b
             {
@@ -25,6 +30,7 @@
               flex:20%;
               text-align:center;
               padding-top:4em;
+              order: -1;
             }
             .c
             {
@@ -51,18 +57,19 @@
             {
               margin:50%;
             }
+            .f
+            {
+              margin-top:90%;
+            }
         </style>
     </head>
     <body>
-        <div class="cont">
           <div class="a">
           <h1>
           Blalalla
           </h1>
           </div>
-          <div class="b">
-          <span class="f">jirjfoi</span>
-          </div>
+          <div class="cont">
           <div class="c">
           <h1>
           blalala
@@ -73,9 +80,12 @@
           <div class="d">
           <span class="g">rfurjw</span>
           </div>
+          <div class="b">
+          <span class="f">jirjfoi</span>
+          </div>
+          </div>
           <div class="e">
           fine print
           </div>
-        </div>
     </body>
 </html>
