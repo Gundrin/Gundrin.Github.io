@@ -3,24 +3,37 @@
 
   <head>
     <style>
+      body
+      {
+        line-height:0;
+      }
       .cont {
         display: flex;
         background-color: #663300;
         height: 100%;
         flex-wrap:wrap;
+        justify-content:space-between;
       }
       .a
       {
-        height:2em;
+        height:5%;
+        justify-content:center;
+        flex:2;
       }
       .b
       {
-        height:1em;
+        flex:1;
       }
       li
       {
         float:left; 
-        margin-left:1em;
+        list-style:none;
+        border:white 1px solid;
+        border-radius:4px;
+        color:white;
+        font-family: sans-serif;
+        padding:1em;
+        margin:1%
       }
       .c
       {
@@ -31,21 +44,20 @@
 
   <body>
     <div class="cont">
-      <div class="b">
+      <div class="a">
       <ul>
-      <li>br</li>
-      <li>bfd</li>
-      <li>br</li>
-      <li>brs</li>
+      <li>Menu</li>
+      <li>News</li>
+      <li>About</li>
+      <li>Contact</li>
       </ul>
       </div>
-      <div class="a">
-        <img src="https://storage.googleapis.com/signmonkey-148101.appspot.com/2020/files/signs/sign.311183.v2.png" style="height:100%;">
+      <div class="b">
+        <img src="https://storage.googleapis.com/signmonkey-148101.appspot.com/2020/files/signs/sign.311183.v2.png"style="width:90%;">
       </div>
       <div class="c">
         <img src="https://www.lespetitsbasics.com/cdn/shop/articles/what-is-the-history-of-the-croissant-288600.jpg?v=1677184351&width=900" style="order:6;width:100%;">
       </div>
     </div>
   </body>
-
 </html>
