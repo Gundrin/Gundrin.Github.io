@@ -7,12 +7,11 @@
             {
                 background: #225599;
             }
-            div
+            div:not(.main)
             {
                 background: #dddddd;
                 width:fit-content;
                 height:fit-content;
-                margin:1%;
             }
             .nav
             {
@@ -33,7 +32,10 @@
                 display: flex;
             }
             @media screen and (max-width: 600px)
-            {
+                .main
+                {
+                    
+                }
                 .nav
                 {
 
@@ -92,14 +94,14 @@
         </style>
     </head>
     <body>
-        <div class="all">
-            <div class="nav">
+        <div class="all main">
+            <div class="nav main">
                 <div>Home</div>
                 <div>About</div>
                 <div>Services</div>
                 <div>Contact</div>
             </div>
-            <div class="pic">
+            <div class="pic main">
                 <div class="img"></div>
                 <div>
                     <p>Your Business On the Web</p>
@@ -107,13 +109,13 @@
                     <button>read more</button>
                 </div>
             </div>
-            <div class="info">
+            <div class="info main">
                 <div>Analytics</div>
                 <div>Marketing</div>
                 <div>Development</div>
                 <div>Support</div>
             </div>
-            <div clasS="form">
+            <div clasS="form main">
                 <form class="formspecs">
                 <div>
                     <fieldset>
