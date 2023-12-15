@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exprov</title>
+        <style>
+            body
+            {
+                background: #225599;
+            }
+            .nav
+            {
+                display: flex;
+            }
+            .pic
+            {
+                display: flex;
+            }
+            .info
+            {
+                order: 2;
+                display: flex;
+            }
+            .form
+            {
+                display: flex;
+            }
+            @media screen and (min-width: 450px) and (max-width: 750px)
+            {
+                .nav
+                {
+
+                }
+                .pic
+                {
+                    display:none;
+                }
+                .info
+                {
+
+                }
+                .form
+                {
+                    display:none;
+                }
+            }
+            @media screen and (min-width: 750px) and (max-width: 1100px)
+            {
+                .nav
+                {
+                    
+                }
+                .pic
+                {
+                    
+                }
+                .info
+                {
+
+                }
+                .form
+                {
+                    display:none;
+                }
+            }
+            @media screen and (min-width: 1100px)
+            {
+                .nav
+                {
+                    
+                }
+                .pic
+                {
+                    
+                }
+                .info
+                {
+
+                }
+                .formspecs
+                {
+                    display:flex;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="all">
+            <div class="nav">
+                <div>Home</div>
+                <div>About</div>
+                <div>Services</div>
+                <div>Contact</div>
+            </div>
+            <div class="pic">
+                <div class="img"></div>
+                <div>
+                    <p>Your Business On the Web</p>
+                    <p>lorum ipsum uehuiae ercwecwe</p>
+                    <button>read more</button>
+                </div>
+            </div>
+            <div class="info">
+                <div>Analytics</div>
+                <div>Marketing</div>
+                <div>Development</div>
+                <div>Support</div>
+            </div>
+            <div clasS="form">
+                <form class="formspecs">
+                    <fieldset>
+                        <legend>Gender*</legend>
+                <div>
+                	<label for="male" style="padding:6px;">male</label>
+                    <input type="radio" name="gender" id="male">
+                </div>
+                <br>
+                <div>
+                    <label for="female">female</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Programming skill</legend>
+                <div>
+                	<label for="Java">Java</label>
+                    <input type="checkbox" name="Java">
+                </div>
+                <br>
+                <div>
+                	<label for="C++">C++</label>
+                    <input type="checkbox" name="C++">
+                </div>
+                <br>
+                <div>
+                	<label for="C#">C#</label>
+                    <input type="checkbox" name="C#">
+                </div>
+                    </fieldset>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
