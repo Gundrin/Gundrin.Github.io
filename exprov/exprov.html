@@ -41,6 +41,11 @@
             {
                 display: flex;
             }
+            .filler
+            {
+                height:100%;
+                flex:1;
+            }
             @media screen and (max-width: 600px)
             {
                 .main
@@ -72,7 +77,7 @@
                 }
                 .pic
                 {
-                    height: 30%;
+                    
                 }
                 .info
                 {
@@ -91,7 +96,7 @@
                 }
                 .pic
                 {
-                    height: 30%;
+
                 }
                 .info
                 {
@@ -113,8 +118,8 @@
                 <a>Contact</a>
             </div>
             <div class="pic main">
-                <div><img src="../exprov/pic1.jpg"></div>
-                <div>
+                <div><img src="../exprov/pic1.jpg" style="flex:0;"></div>
+                <div class="filler">
                     <p>Your Business On the Web</p>
                     <p>lorum ipsum uehuiae ercwecwe</p>
                     <button>read more</button>
