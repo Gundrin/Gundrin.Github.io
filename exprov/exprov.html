@@ -11,7 +11,6 @@
             .all
             {
                 justify-content:center;
-                align-items: center;
             }
             a, div:not(.main)
             {
@@ -95,9 +94,14 @@
             }
             @media screen and (min-width: 1100px)
             {
+                a
+                {
+                    flex:1 1;
+                }
                 .nav
                 {
                     flex-direction: row;
+                    width:100%;
                 }
                 .pic
                 {
@@ -117,10 +121,11 @@
     <body>
         <div class="all main">
             <div class="nav main">
-                <a>Home</a>
-                <a>About</a>
-                <a>Services</a>
-                <a>Contact</a>
+                <a href="https://gundrin.github.io/exprov/exprov.html?">Home</a>
+                <a></a>
+                <a href="https://gundrin.github.io/exprov/exprov.html?">About</a>
+                <a href="https://gundrin.github.io/exprov/exprov.html?">Services</a>
+                <a href="https://gundrin.github.io/exprov/exprov.html?">Contact</a>
             </div>
             <div class="pic main">
                 <div><img src="../exprov/pic1.jpg" style="flex:0;"></div>
