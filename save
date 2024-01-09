@@ -2,6 +2,7 @@
 <html>
 
   <head>
+  <script src="https://kit.fontawesome.com/da87fa89bb.js" crossorigin="anonymous"></script>
     <title>exprov</title>
     <script>
       function change() {
@@ -41,6 +42,7 @@
       .pic {
         display: flex;
         box-shadow: 0.3em 0.3em green;
+        margin-bottom:1em;
       }
 
       .info {
@@ -94,17 +96,25 @@
         {
           margin-right:1em;
         }
+        .home
+        {
+          order:4;
+        }
         .pic {
           display: none;
         }
 
         .info {
           width: 100%;
-          flex-wrap: wrap;
+          flex-direction: column;
+          margin-top:1em;
         }
 
         .info>div {
-          width: 50%;
+          width: 100%;
+          margin-bottom:1em;
+          padding:1em 0;
+          text-align:center;
         }
 
         .form {
@@ -180,6 +190,10 @@
         {
           margin:2em 3em 0 0;
         }
+        .home
+        {
+          width:30em;
+        }
       }
 
     </style>
@@ -206,10 +220,26 @@
         </div>
       </div>
       <div class="info main">
-        <div>Analytics</div>
-        <div>Marketing</div>
-        <div>Development</div>
-        <div>Support</div>
+        <div>
+        <i class="fa-light fa-chart-pie" style="color: #fffb00;"></i><br>
+        Analytics<br>
+        lorum ipsum uehuiae ercwecwe
+        </div>
+        <div>
+        <i class="fa-solid fa-rectangle-ad fa-rotate-270" style="color: #ff1100;"></i><br>
+        Marketing<br>
+        lorum ipsum uehuiae ercwecwe
+        </div>
+        <div>
+        <i class="fa-regular fa-window-maximize" style="color: #005eff;"></i><br>
+        Development<br>
+        lorum ipsum uehuiae ercwecwe
+        </div>
+        <div>
+        <i class="fa-solid fa-phone fa-flip-horizontal" style="color: #00ff33;"></i><br>
+        Support<br>
+        lorum ipsum uehuiae ercwecwe
+        </div>
       </div>
       <div class="form main">
         <form class="formspecs">
