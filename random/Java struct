@@ -1,0 +1,1 @@
+documentwrite.getElementById([id för den du vill ändra]).style. [css property] = "[det som ska ändras]"
