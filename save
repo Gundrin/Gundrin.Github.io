@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>exprov</title>
+    <script>
+      function change() {
+				
+      }
+
+    </script>
+    <style>
+      body {
+        background: #22ff99;
+        margin: 1em;
+      }
+
+      .all {
+        justify-content: center;
+      }
+
+      a,
+      div:not(.main) {
+        background: #dddddd;
+        width: fit-content;
+      }
+
+      .nav {
+        display: flex;
+        flex-direction: column;
+      }
+
+      a {
+        box-shadow: 0.5em 0.5em #b05c79;
+      }
+      .home
+      {
+        display:flex;
+        background-color:#22ff99;
+      }
+      .pic {
+        display: flex;
+        box-shadow: 0.3em 0.3em green;
+      }
+
+      .info {
+        order: 2;
+        display: flex;
+      }
+
+      .info>div {
+        box-shadow: 0.3em 0.3em red;
+      }
+
+      .form {
+        display: flex;
+      }
+
+      .filler {
+        height: 100%;
+        flex: 1;
+      }
+      input
+      {
+        float:right;
+      }
+      .formspecs>div
+      {
+        padding:1em;
+        margin:1em;
+        box-shadow:0.3em 0.3em #078630;
+      }
+      .q
+      {
+        width:6em;
+      }
+      #w
+      {
+        background:yellow;
+      }
+      @media screen and (max-width: 600px) {
+        .main {}
+
+        .nav {
+          width: 100%;
+        }
+
+        a {
+          width: 100%;
+          padding: 1em 0em;
+          margin: 0.5em 0em;
+        }
+        .home>a
+        {
+          margin-right:1em;
+        }
+        .pic {
+          display: none;
+        }
+
+        .info {
+          width: 100%;
+          flex-wrap: wrap;
+        }
+
+        .info>div {
+          width: 50%;
+        }
+
+        .form {
+          display: none;
+        }
+      }
+
+      @media screen and (min-width: 600px) and (max-width: 1100px) {
+        .nav {
+          width: 100%;
+        }
+
+        a {
+          width: 100%;
+          padding: 1em 0em;
+          margin: 0.5em 0em;
+        }
+        .home>a
+        {
+          margin-right:1em;
+        }
+
+        .info {
+          width: 100vw;
+        }
+
+        .info>div {
+          aspect-ratio: 1 / 1;
+        }
+
+        .form {
+          display: none;
+        }
+      }
+
+      @media screen and (min-width: 1100px) {
+
+        a, #b {
+          width:25%;
+          margin:1em;
+          padding:1em 0em;
+          text-align:center;
+        }
+        #b
+        {
+          background:#22ff99;
+        }
+        .nav {
+          flex-direction: row;
+          width: 100%;
+        }
+
+        .pic {}
+
+        .info {
+          width: 100%;
+        }
+        .info>div
+        {
+          width:100%;
+          padding:2em 0;
+          text-align:center;
+          margin:1em 1em 0em 0em;
+        }
+        .formspecs {
+          display: flex;
+          flex-direction: row;
+          margin: 1em;
+          margin: 1em 20% 0px;
+          width:100vw;
+        }
+        #submit
+        {
+          margin:2em 3em 0 0;
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="all main">
+      <div class="nav main">
+        <div class="home main">
+        <a href="https://gundrin.github.io/exprov/exprov.html?">Home</a>
+        <a href="https://gundrin.github.io/exprov/exprov.html?">News</a>
+        </div>
+        <div id="b"></div>
+        <a href="https://gundrin.github.io/exprov/exprov.html?">About</a>
+        <a href="https://gundrin.github.io/exprov/exprov.html?">Services</a>
+        <a href="https://gundrin.github.io/exprov/exprov.html?">Contact</a>
+      </div>
+      <div class="pic main">
+        <div><img src="../exprov/pic1.jpg" onclick="change" style="flex:0;" id="pic2"></div>
+        <div class="filler">
+          <h3>Your Business On the Web</h3>
+          <p>lorum ipsum uehuiae ercwecwe</p>
+          <button>read more</button>
+        </div>
+      </div>
+      <div class="info main">
+        <div>Analytics</div>
+        <div>Marketing</div>
+        <div>Development</div>
+        <div>Support</div>
+      </div>
+      <div class="form main">
+        <form class="formspecs">
+          <div>
+            <fieldset>
+              <legend>Your name:</legend> 
+              <input type="text" id="w"><label>First name:*</label><br><br>
+              <input type="text" id="w"><label>Last name:*</label>
+            </fieldset>
+            <fieldset>
+              <legend>Nationality</legend>
+              <select>
+                <option value="NED">NED</option>
+                <option value="SWE">SWE</option>
+                <option value="GBR">GBR</option>
+                <option value="USA">USA</option>
+              </select>
+            </fieldset>
+          </div>
+          <div>
+            <fieldset class="q">
+              <label>Electrician</label>
+              <input type="checkbox"><br>
+              <label>Baker</label>
+              <input type="checkbox">
+              <label>Carpenter</label>
+              <input type="checkbox">
+            </fieldset>
+            <input type="submit" id="submit">
+          </div>
+         </form>
+      </div>
+  </body>
+</html>
